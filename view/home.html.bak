@@ -39,7 +39,7 @@
         </div>
         <hr>
         <div class="readdocs">
-            <p>Read <a href="/home" class="docs">Docs.</a></p>
+            <p>Read <a href="/docs" class="docs">Docs.</a></p>
         </div>
     </div>
     <div class="bottom">
@@ -181,7 +181,7 @@ div.bottom {
 
 <script>
 const typedTextSpan = document.querySelector(".typed-text"),
-    textArray = ["AKTIF", "ONLINE", "GOOD", "ENJOY :D"],
+    textArray = ["AKTIF", "ONLINE", "GOOD"],
     typingDelay = 200,
     erasingDelay = 100,
     newTextDelay = 2e3;

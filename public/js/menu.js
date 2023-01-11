@@ -25,14 +25,14 @@
 
 //Visit
 
-$.getJSON("https://api.countapi.xyz/hit/rest-api-alip.herokuapp.com/visitor", function(response) {
+$.getJSON("https://api.countapi.xyz/hit/api-alphabot.herokuapp.com/visitor", function(response) {
     $("#visitor").text(response.value);
 })
 
 
 //count Time
 
-var countDownDate = new Date("Jan 1, 2023 00:00:00").getTime();
+var countDownDate = new Date("Jan 2, 2023 00:00:00").getTime();
 
 // Update Hitungan Mundur Setiap 1 Detik
 var x = setInterval(function() {

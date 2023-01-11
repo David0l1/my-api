@@ -18,7 +18,7 @@ const { runtime,fetchJson } = require('../lib/myfunc')
 
 router.get('/statistic', async (req, res, next) => {
 
-	let hits = await fetchJson('https://api.countapi.xyz/hit/api.onee-dev.biz.id/visitor')
+	let hits = await fetchJson('https://api.countapi.xyz/hit/api-alphabot.herokuapp.com/visitor')
 
 	res.json({
 	status: true,
@@ -34,7 +34,7 @@ router.get('/', (req, res) => {
     res.sendFile(__path + '/view/home.html')
 })
 
-router.get('/docs', (req, res) => {
+router.get('/home', (req, res) => {
     res.sendFile(__path + '/view/docs.html')
 })
 
