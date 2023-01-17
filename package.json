@@ -3,9 +3,7 @@
   "version": "6.4.7",
   "description": "Nothing :/",
   "main": "index.js",
-  "engines": {
-    "node": "16.x"
-  },
+  "build": "npm i yarn -g && yarn",
   "directories": {
     "lib": "lib"
   },
