@@ -23,7 +23,7 @@ cors = require('cors'),
 
 
     secure = require('ssl-express-www');
-const PORT = process.env.PORT || 8080 || 5000 || 3000 || 8810
+const PORT = process.env.PORT 8810 || 5000
 
 app.use(favicon(path.join(__dirname,'public','images','favicon.ico')))
 
@@ -49,16 +49,7 @@ app.use(function (err, req, res, next) {
 
 
 app.listen(PORT, () => {
-    console.log(`
-	██████╗ ███████╗███████╗████████╗ █████╗ ██████╗ ██╗
-	██╔══██╗██╔════╝██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██║
-	██████╔╝█████╗  ███████╗   ██║   ███████║██████╔╝██║
-	██╔══██╗██╔══╝  ╚════██║   ██║   ██╔══██║██╔═══╝ ██║
-	██║  ██║███████╗███████║   ██║   ██║  ██║██║     ██║
-	╚═╝  ╚═╝╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝     ╚═╝
-			                              Make by Alip 
-								 
- Server running on http://localhost:` + PORT)
+    console.log(`Server running on http://localhost:` + PORT)
 console.log(`Hello ${creator}`)
 })
 
