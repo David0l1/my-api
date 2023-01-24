@@ -3,9 +3,6 @@
   "version": "2.0.0",
   "description": "make by alip free rest api",
   "main": "index.js",
-  "engines": {
-    "node": "16.x"
-  },
   "directories": {
     "lib": "lib"
   },
@@ -79,8 +76,6 @@
     "soundoftext-js": "^1.0.2",
     "ssl-express-www": "^3.0.8",
     "tinyurl": "^1.1.7",
-    "translate-google": "^1.5.0",
-    "yt-search": "^2.10.3",
-    "ytdl-core": "^4.11.2"
+    "translate-google": "^1.5.0"
   }
 }
