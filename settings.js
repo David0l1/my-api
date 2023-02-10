@@ -20,7 +20,7 @@ require('dotenv').config()
 //_______________________ ┏  Main Setting  ┓ _______________________\\
 
 creator = 'Davitt' // Nama 
-port = 25901 //port host
+port = 5000 //port host
 LimitApikey = 5000 // Limit Apikey default
 
 //___________ ┏  Database Mongodb Setting  ┓ ___________\\
