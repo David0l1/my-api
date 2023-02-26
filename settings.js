@@ -35,7 +35,7 @@ servicesmtp = 'Gmail' //Ada gmail ada sendinblue ikut masing2 limit gmail 500 li
 sendemail = 'onee.services24@gmail.com' //Email SMTP
 fromsendemail = 'onee.services24@gmail.com' // From Email SMTP *kalau takde custom email kena sama email dengan Email SMTP
 sendpwmail = 'thmcpkmlupkxbqmw' // Password Email SMTP
-domain = 'api2.onee.eu.org'// domain website tanpa http or https
+domain = 'api.dapitt.site'// domain website tanpa http or https
 
 //_______________________ ┏  Apikey  ┓ _______________________\\
 
